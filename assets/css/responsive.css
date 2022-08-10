@@ -1,0 +1,36 @@
+@media only screen and (max-width:1300px){
+    :root{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    :root{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    :root{
+        font-size: 7px;
+    }
+    .navigation,
+    .register-btn{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:425px){
+    :root{
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    :root{
+        font-size: 3px;
+    }
+}

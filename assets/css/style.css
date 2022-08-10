@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Lexend:wght@200;300;400;500;600;700;800&family=Montserrat+Alternates:ital,wght@0,300;0,400;0,700;1,500&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&family=Source+Sans+Pro:ital,wght@0,300;0,600;0,700;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.bars{
+    display: none;
+}
+.container{
+    width:min(90%,80rem);
+    margin-inline:auto ;
+}
+.header-logo {
+    width: 6rem;
+}
+.header-logo img {
+    max-width: 100%;
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+.navigation{
+    flex: 1;
+}
+nav.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+    margin-right: 3rem;
+}
+
+a.nav-links {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.register-btn a {
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    color: #39b2f5;
+    text-transform: capitalize;
+    border: 2px solid #39b2f5;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 6rem;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 6rem;
+}
+
+.hero-content h1,
+.service h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    flex: 1;
+}
+
+.hero-content p,
+.service p {
+    padding: 2rem 10rem 2rem 0;
+    color: grey;
+    line-height: 1.7rem;
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.package a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    background: linear-gradient(125deg,#09bdf8,#056beb);
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+.server-image{
+    width: 55rem;
+}
+.server-image img {
+    max-width: 100%;
+}
+
+
+
+section.server,
+section.testing,
+section.support,
+section.service-provide,
+section.plan,
+section.our-customer {
+    margin-bottom: 10rem;
+}
+
+.testing-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testing-logo {
+    flex: 1;
+}
+
+.testing-logo img {
+    max-width: 100%;
+}
+.testing-content{
+    flex: 1;
+}
+.testing-content h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.testing-content p {
+    padding: 2rem 0 2rem 0;
+    color: grey;
+    line-height: 1.7rem;
+    font-size: 0.9rem;
+}
+
+
+
+.customer-support {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service {
+    flex: 1;
+}
+
+.support-image {
+    flex: 1;
+}
+
+.support-image img {
+    max-width: 100%;
+}
+
+.service-provide-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-provide-content h1{
+    flex: 1;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.service-provide-content p {
+    padding: 2rem 0 2rem 0;
+    color: grey;
+    line-height: 1.7rem;
+    font-size: 0.9rem;
+    flex: 1;
+}
+.hosting-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0rem;
+    margin-top: 5rem;
+}
+
+
+.hosting {
+    width: 33%;
+    height: 15rem;
+    padding: 0 2rem;
+}
+
+.image {
+    width: 4rem;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.hosting h3 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.hosting p {
+    line-height: 1.5rem;
+    color: grey;
+    font-size: 0.9rem;
+    padding: 2rem 0;
+}
+
+.plan{
+    background: linear-gradient(179deg,#09bdf8,#056beb);
+    padding: 3rem 0;
+}
+.plan-heading {
+    text-align: center;
+}
+.plan-heading h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+    color: #ffffff;
+}
+.plan-listing {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: left;
+    gap: 5rem;
+}
+
+.plans {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+.featured {
+    padding: 2rem;
+}
+
+.featured ul {
+    list-style: none;
+    line-height: 3.5rem;
+}
+.featured ul li {
+    color: #000000;
+    font-weight: 600;
+}
+.featured ul li::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f336";
+    position: relative;
+    right: 0.5rem;
+}
+.name {
+    line-height: 3rem;
+    padding: 2rem;
+}
+.name.active{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+.name h3 {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.name p {
+    color: grey;
+}
+
+.price {
+    text-align: center;
+    line-height: 2rem;
+}
+
+.price h3 {
+    font-size: 2rem;
+}
+
+.price h3 span {
+    color: grey;
+}
+
+.price p {
+    color: grey;
+    font-size: 0.9rem;
+}
+.choose-plan.package {
+    text-align: center;
+    padding: 2rem;
+}
+
+.customers {
+    text-align: center;
+    padding: 0 15rem;
+}
+.customers h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.customers p{
+    font-size: 1rem;
+    color: grey;
+    padding: 1rem 0 4rem 0;
+    line-height: 1.5rem;
+}
+
+
+.customer-listing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.customer {
+    width: 49%;
+    border: 1px solid darkgrey;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+.about-customer p {
+    line-height: 1.5rem;
+}
+
+.customer-listing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.customer {
+    width: 49%;
+    border: 1px solid #dad8d8;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-customer p {
+    line-height: 1.5rem;
+    
+}
+
+.customer-profile {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5rem;
+    background: #dad8d8;
+}
+
+.customer-name {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+}
+section.hosting-service {
+    background: linear-gradient(179deg,#09bdf8,#056beb);
+    color: #ffffff;
+}
+.about-hosting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.about-hosting-service h1 {
+    text-transform: capitalize;
+    line-height: 3.5rem;
+    font-size: 3rem;
+}
+
+.about-hosting-service p {
+    line-height: 1.5rem;
+    padding: 2rem 0;
+}
+.about-hosting-service {
+    flex: 1;
+}
+
+.register-now {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.register-now a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+.abc {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+footer {
+    padding: 7rem 0 2rem 0;
+}
+
+.footer-logo-content {
+    max-width: 20rem;
+}
+
+.footer-logo-content p {
+    color: #8c8c8c;
+}
+
+.menu ul,
+.links ul,
+.overview ul,
+.social ul {
+    list-style: none;
+    line-height: 2rem;
+    color: #8c8c8c;
+}
+
+.menu h1,
+.links h1,
+.overview h1,
+.social h1 {
+    font-size: 1.5rem;
+    color: #000000df;
+}
+
+.social ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social ul li {
+    background: linear-gradient(179deg,#09bdf8,#056beb);
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    color: #ffffff;
+    font-weight: 900;
+    margin-right: 0.5rem;
+}
+.footer-logo{
+    width: 8rem;
+}
+.footer-logo,
+.menu h1,
+.links h1,
+.social h1,
+.overview h1 {
+    padding: 0 0 1.5rem 0;
+}
+
+.footer-logo img {
+    max-width: 100%;
+}
