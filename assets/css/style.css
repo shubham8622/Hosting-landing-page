@@ -114,6 +114,7 @@ section.our-customer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5rem;
 }
 
 .testing-logo {
@@ -405,7 +406,6 @@ section.hosting-service {
 .abc {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 footer {

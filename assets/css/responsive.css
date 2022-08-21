@@ -8,6 +8,61 @@
     :root{
         font-size: 10px;
     }
+    .hero-section {
+        align-items: center;
+    }
+    .hero-content p, .service p, .testing-content p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .server-image {
+        width: 90rem;
+    }    
+    .hosting h3 {
+        font-size: 2rem;
+    }
+    .hosting{
+        height: auto;
+    }
+    .hosting p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }    
+    .name p {
+        font-size: 1.5rem;
+    }
+    .featured ul li {
+        font-size: 1.2rem;
+    }    
+    .price p {
+        margin: 1rem 0;
+        font-size: 1.3rem;
+    }
+    .customers p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .about-customer p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .customer-name h3{
+        font-size: 1.5rem;
+    }
+    .about-hosting-service p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .register-now a {
+        font-size: 1.5rem;
+    }
+    .footer-logo-content p {
+        font-size: 1.3rem;
+    }
+    .menu ul li, .links ul li,.overview ul li{
+            font-size: 1.3rem;
+            line-height: 2.5rem;
+    }
 }
 
 @media only screen and (max-width:768px){
@@ -20,17 +75,260 @@
     }
     .bars{
         display: block;
+        font-size: 3rem;
+    }
+    .container {
+        width: min(90%,100rem);
+    }
+    .header-logo {
+        width: 12rem;
+    }
+    .hero-content p, .service p, .testing-content p, .hosting p {
+        line-height: 2.7rem;
+        font-size: 1.9rem;
+    }
+    .server-image {
+        width: 90rem;
+    }
+    .hero-section{
+        align-items: center;
+    }
+    .hosting{
+        height: auto;
+    }
+    .hosting h3 {
+        font-size: 2.5rem;
+    }
+    .name h3 {
+        font-size: 2.5rem;
+    }
+    .name p {
+        font-size: 1.5rem;
+    }    
+    .featured ul li {
+        font-size: 1.5rem;
+    }    
+    .price p {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }    
+    .package a{
+        font-size: 1.5rem;
+    }
+    .customers h2 {
+        font-size: 3rem;
+    }
+    .customers p {
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }    
+    .about-customer p {
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+    .customer-name h3{
+        font-size: 2rem;
+    }    
+    .about-hosting-service p {
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+    .register-now a {
+        font-size: 2rem;
+    }    
+    .footer-logo {
+        width: 11rem;
+    }
+    .footer-logo-content p {
+        font-size: 1.5rem;
+    }
+    .menu h1, .links h1, .overview h1, .social h1 {
+        font-size: 2rem;
+    }
+    .menu ul li , .links ul li, .overview ul li{
+        font-size: 1.7rem;
+        line-height: 3rem;
     }
 }
 
-@media only screen and (max-width:425px){
+@media only screen and (max-width:625px){
     :root{
         font-size: 5px;
     }
-}
-
-@media only screen and (max-width:375px){
-    :root{
-        font-size: 3px;
+    .container {
+        width: min(90%,120rem);
+    }
+    .testing-logo,.support-image {
+        align-self: flex-end;
+        width: 60rem;
+    }    
+    .header-logo {
+        width: 20rem;
+    }
+    .bars{
+        font-size: 5rem;
+    }
+    .hero-section{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .hero-content h1 {
+        font-size: 4rem;
+    }
+    .hero-content p{
+        font-size: 2.5rem;
+        line-height: 3.7rem;
+        margin: 2rem 0;
+        padding: 0;
+    }
+    .package a{
+        padding: 2.5rem 2rem;
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+    .server-image{
+        align-self: flex-end;
+        width: 60rem;
+    }
+    .testing-section{
+        flex-direction: column-reverse;
+    }
+    .testing-content h1 {
+        font-size: 4rem;
+    }
+    .testing-content p {
+        margin: 2rem 0;
+        padding: 0;
+        line-height: 3.7rem;
+        font-size: 2.5rem;
+    }
+    .testing-logo{
+        align-self: flex-end;
+    }
+    .customer-support{
+        flex-direction: column;
+    }
+    .service-provide-content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hosting-services{
+        flex-direction: column;
+    }
+    .hosting{
+        width: 100%;
+        height: auto;
+    }
+    .hosting .image{
+        width: 15rem;
+    }
+    .hosting h3{
+        font-size: 4rem;
+    }
+    .hosting p{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .plan-heading h1{
+        font-size: 4rem;
+    }
+    .plan-listing{
+        flex-direction: column;
+        align-items: center;
+    }
+    .name h3 {
+        font-size: 3.7rem;
+    }
+    .name p {
+        font-size: 2.5rem;
+        margin: 3rem 0;
+    }
+    .featured ul li {
+        font-size: 2.5rem;
+        line-height: 7rem;
+    }
+    .price h3 {
+        font-size: 3rem;
+    }
+    .price p {
+        font-size: 3rem;
+        margin: 3rem 0;
+    }    
+    .customers {
+        padding: 0;
+    }
+    .customers h2 {
+        font-size: 3.5rem;
+    }
+    .customers p {
+        font-size: 2.5rem;
+        padding: 0;
+        line-height: 3.5rem;
+        margin: 2rem 0;
+    }
+    .customer-listing{
+        flex-direction: column;
+    }
+    .customer{
+        width: 100%;
+    }
+    .about-customer p {
+        line-height: 3.5rem;
+        font-size: 2.5rem;
+    }
+    .customer-name h3{
+        font-size: 3rem;
+    }
+    .customer-profile {
+        width: 10rem;
+        height: 10rem;
+    }    
+    .customer-name {
+        top: 7rem;
+        left: 4rem;
+    }
+    .about-hosting{
+        flex-direction: column;
+    }
+    .about-hosting-service h1 {
+        line-height: 5.5rem;
+        font-size: 4rem;
+    }    
+    .about-hosting-service p {
+        line-height: 3.5rem;
+        padding: 2rem 0;
+        font-size: 2.5rem;
+    }
+    .register-now a {
+        font-size: 2.5rem;
+    }
+    .abc{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .footer-logo {
+        width: 20rem;
+    }  
+    .footer-logo-content {
+        max-width: 60rem;
+    }
+    .footer-logo-content p {
+        color: #8c8c8c;
+        font-size: 3rem;    
+    }
+    .footer-logo, .menu h1, .links h1, .social h1, .overview h1 {
+        font-size: 4rem;
+    }
+    .menu ul li, .links ul li, .overview ul li{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+    .social ul {
+        justify-content:flex-start;
+        gap: 3rem;
+    }
+    .social ul li {
+        padding: 2.5rem 2rem;
+        font-size: 3rem;
     }
 }
